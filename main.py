@@ -3,7 +3,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, ContextTypes
 import os
 
 TOKEN = os.getenv("TOKEN")
-CHANNEL_USERNAME = "@kinouzbek"   # o'z kanaling username
+CHANNEL_USERNAME = "@kinouzbek001"   # o'z kanaling username
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     user_id = update.effective_user.id
